@@ -4,6 +4,10 @@ const { notFoundHandler, errorHandler } = require("./src/utility/error");
 const baseRoute = require("./src/routes/base.route");
 const routes = require("./src/routes/index.route");
 
+/* 
+added new lines
+*/
+
 // ? connected DB
 const connectDB = require("./config/db").apply();
 // ? use middleware
